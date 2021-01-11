@@ -1,0 +1,101 @@
+.container {
+	width: 300px;
+	height: 300px;
+	border:2px solid black;
+	position: absolute;
+	left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.backgound{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    background-color: white;
+}
+
+.circle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#top-left {
+    top:5px;
+    left:5px;
+    background-color: whitesmoke;
+}
+
+#top-right {
+    top:5px;
+    right:5px;
+    background-color: whitesmoke;
+}
+
+#bottom-left {
+    bottom:5px;
+    left:5px;
+    background-color: whitesmoke;
+}
+
+#bottom-right {
+    bottom:5px;
+    right:5px;
+    background-color: whitesmoke;
+}
+
+.controler{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border:2px solid black;
+	position: absolute;
+	left: 0;
+    right: 0;
+    top: 350px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#line1 {
+    position: relative;
+    width: 275px;
+    top: 100px;
+    margin: auto; 
+}
+
+#line2 {
+    position: relative;
+    width: 275px;
+    top:200px;
+    padding: 0;
+    margin: auto;
+}
+
+.circle2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#top-control {
+    top:10px;
+    left:110px;
+}
+
+#mid-control {
+    top:110px;
+    left:110px;
+}
+
+#bottom-control {
+    top:210px;
+    left:110px;
+}

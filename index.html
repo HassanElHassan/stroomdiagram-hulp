@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stroomdiagram.css">
+</head>
+<body>
+
+    <div class="container"> 
+        <div class="backgound" onclick="background()"></div> 
+        <div class="circle" id="top-left" onclick="topLeft()"></div>
+        <div class="circle" id="top-right" onclick="topRight()"></div>
+        <div class="circle" id="bottom-left" onclick="bottomLeft()"></div>
+        <div class="circle" id="bottom-right" onclick="bottomRight()"></div>
+    </div>
+
+    <div class="controler"> 
+        <div class="circle2" id="top-control" onclick="topControl()"></div>
+        <hr id="line1">
+        <div class="circle2" id="mid-control" onclick="midControl()"></div>
+        <hr id="line2">
+        <div class="circle2" id="bottom-control" onclick="bottomControl()"></div>
+    </div>
+
+
+    <script src="stroomdiagram.js"></script>
+</body>
+</html>
